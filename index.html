@@ -4,18 +4,48 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 <body>
-  <header class="Header">
-    <img src="images//logo.svg" alt="" class="Header__logo">
-    <div class="Header__contents">
-      <a href="#" class="Header__NEW">NEW</a>
-      <a href="#" class="Header__COLUMN">COLUMN</a>
-      <a href="#" class="Header__SERIES">SERIES</a>
-      <a href="#" class="Header__Q&A">Q&A</a>
-      <a href="#" class="CONTACT">CONTACT</a>
+  <div class="Container">
+    <header class="Header">
+      <img src="images//logo.svg" class="Header__logo">
+  </div>
+  <div class="Header__content">
+    <ul class="Header__list">
+      <li class="Header__listItem"><a href="#">NEW</a></li>
+      <li class="Header__listItem"><a href="#">COLUMN</a></li>
+      <li class="Header__listItem"><a href="#">SERIES</a></li>
+      <li class="Header__listItem"><a href="#">Q&A</a></li>
+      <li class="Header__listItem"><a href="#">CONTACT</a></li>
+    </ul>
+  </div>
+    </header>
+    <div class="Container">
+      <main class="Main">
+        <div class="TopNews">
+          <article class="NewsContents">
+            <img src="images/pickup1.jpeg" class="NewsContents__image">
+            <h3 class="NewsContents__text">タイトルテキストテキストテキストテキストテキス<br>
+              トテキストテキスト</h3>
+            <p class="NewsContents__link"><a href="#">READ MORE</a></p>
+          </article>
+          <article class="NewsContents">
+            <img src="images/pickup2.jpeg" class="NewsContents__image">
+            <h3 class="NewsContents__text">タイトルテキストテキストテキストテキストテキス<br>
+              トテキストテキスト</h3>
+            <p class="NewsContents__link"><a href="#">READ MORE</a></p>
+          </article>
+          <article class="NewsContents">
+            <img src="images/pickup3.jpeg" class="NewsContents__image">
+            <h3 class="NewsContents__text">タイトルテキストテキストテキストテキストテキス<br>
+              トテキストテキスト</h3>
+            <p class="NewsContents__link"><a href="#">READ MORE</a></p>
+          </article>
+        </div>
+      </main>
     </div>
-  </header>
 </body>
 </html>
