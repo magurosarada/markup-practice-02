@@ -88,4 +88,93 @@
 .TopNews .NewsContents:not(:first-of-type) {
   margin-left: 23.3px;
 }
+
+.Main {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Main .MainContents {
+  max-width: 759px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Main .MainContents .MainContent .MainContent__title {
+  font-size: 24px;
+}
+
+.Main .MainContents .MainContent .MainContent__image {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 427px;
+}
+
+.Main .MainContents .MainContent .MainContent__readMore {
+  text-align: center;
+  font-size: 14px;
+}
+
+.Main .MainContents .MainContent .MainContent__readMore a {
+  color: #333333;
+  text-decoration: none;
+  border-bottom: 1px solid #333333;
+  position: relative;
+}
+
+.Main .MainContents .MainContent .MainContent__readMore a:hover {
+  border: none;
+}
+
+.Main .MainContents .MainContent .MainContent__text {
+  padding: 10px 30px 46px;
+}
+
+.Main .MainContents .MainContent .MainContent__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 17px 0 10px;
+}
+
+.Main .MainContents .MainContent .MainContent__top .MainContent__category {
+  padding-left: 20px;
+}
+
+.Main .MainContent:not(:first-of-type) {
+  padding-top: 80px;
+}
+
+.Main aside {
+  max-width: 345px;
+  margin-left: 54px;
+}
+
+.Main aside .Profile {
+  text-align: center;
+}
+
+.Main aside .Profile .Profile__image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.Main aside .Profile .Profile__name {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.Main aside .Profile .Profile__text {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.Ranking {
 /*# sourceMappingURL=style.css.map */

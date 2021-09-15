@@ -77,5 +77,80 @@
   }
 }
 
+.Main {
+  margin-top: 70px;
+  display: flex;
+
+  .MainContents {
+    max-width: 759px;
+    object-fit: cover;
+
+    .MainContent {
+      .MainContent__title {
+        font-size: 24px;
+      }
+      .MainContent__image {
+        max-width: 100%;
+        object-fit: cover;
+        height:427px;
+      }
+        .MainContent__readMore {
+          text-align: center;
+          font-size: 14px;
+          
+          a {
+            color: #333333;
+            text-decoration: none;
+            border-bottom: 1px solid #333333;
+            position: relative;
+          }
+          a:hover {
+            border: none;
+          }
+        }
+      .MainContent__text {
+        padding: 10px 30px 46px;
+      }
+      .MainContent__top {
+        display:flex;
+        padding: 17px 0 10px;
+        .MainContent__category {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+  .MainContent:not(:first-of-type) {
+    padding-top: 80px;
+  }
+aside{
+  max-width: 345px;
+  margin-left: 54px;
+
+  .Profile {
+    text-align: center;
+
+    .Profile__image {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+    }
+
+    .Profile__name {
+      text-align:center;
+      margin-top: 30px;
+      font-size: 18px;
+      font-family: Arial;
+    }
+
+    .Profile__text {
+      text-align: left;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+  }
+}
+}
+.Ranking {
   }
 }
