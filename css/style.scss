@@ -152,5 +152,27 @@ aside{
 }
 }
 .Ranking {
+  padding-top: 60px;
+
+  .Ranking__title {
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+  }
+
+  .Ranking__content {
+    padding-top: 30px;
+
+    .Ranking__image {
+      width: 100%;
+      height: 193px;
+    }
+  
+    .Ranking__text {
+      font-size: 14px;
+    }
+  }
+}
+.Archive {
   }
 }
